@@ -22,3 +22,17 @@ I am an aspiring Front-end Developer focused on learning JavaScript and modern w
 ## English Level
 
 - **A2 — Elementary**
+
+## Code Example
+
+```javascript
+// Greeting message
+console.log('Hello, World!');
+
+// Simple addition function
+function addNumbers(a, b) {
+  return a + b;
+}
+
+console.log(addNumbers(5, 7)); // Output: 12
+```
