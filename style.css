@@ -48,3 +48,59 @@ nav a {
 nav a:hover {
     text-decoration: underline; /* Підкреслення при наведенні мишкою */
 }
+
+/* Стилізація аватарки автора */
+.profile-photo {
+    border-radius: 50%; /* Робить фото ідеально круглим */
+    object-fit: cover;  /* Захищає пропорції від спотворення, якщо фото не квадратне */
+    border: 3px solid #38bdf8; /* Красива блакитна рамка */
+    margin: 15px 0;
+}
+
+/* Прибираємо великі крапки біля Discord та GitHub і центруємо текст */
+header ul {
+    list-style: none; /* Видаляє маркери списку */
+    padding: 0;       /* Прибирає внутрішній відступ зліва */
+    margin: 10px 0 0 0;
+}
+
+header li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+/* Окремо робимо текст "Contacts" трохи більшим та жирнішим */
+header p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 5px;}
+
+    /* Стилізація блока з кодом за твоїм зразком */
+pre {
+    background-color: #f8f9fa; /* Світло-сірий фон як на скріншоті */
+    border-radius: 4px;        /* Легке закруглення кутів */
+    padding: 20px;             /* Внутрішні відступи з усіх боків */
+    overflow-x: auto;          /* Горизонтальний скрол, якщо код не вміщається */
+    text-align: left;          /* Вирівнювання тексту строго по лівому краю */
+    margin: 15px 0;            /* Зовнішні відступи зверху та знизу */
+}
+
+/* Налаштування шрифту для самого тексту коду */
+pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 0.95rem;
+    color: #333333;            /* Темний колір тексту */
+    line-height: 1.5;          /* Відстань між рядками коду */
+}
+
+/* Робимо посилання в підвалі читабельним і світлим */
+.footer-link {
+    color: #38bdf8 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
