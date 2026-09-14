@@ -1,0 +1,50 @@
+/* Робимо гарний шрифт і обмежуємо ширину сайту по центру екрана */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Фарбуємо шапку в темний колір */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Робимо білі блоки з рамкою для кожного розділу */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+
+/* Налаштування для підвалу сайту */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
+
+nav {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #666; /* Колір для розділювачів "|" */
+}
+
+nav a {
+    color: #38bdf8; /* Красивий блакитний колір посилань */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні мишкою */
+}
